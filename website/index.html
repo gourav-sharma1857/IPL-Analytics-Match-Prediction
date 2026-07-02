@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Impact Player Rule — Data Analysis</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link active">Impact Player Analysis</a>
+        <a href="stats.html" class="nav-link">Player & Venue Stats</a>
+        <a href="model.html" class="nav-link">Match Predictor</a>
+      </nav>
+      <h1>Did the Impact Player Rule Change IPL Batting?</h1>
+      <p class="subtitle">
+        A data-driven look at scoring before and after 2023, using ball-by-ball
+        data from Cricsheet
+      </p>
+    </header>
+
+    <section id="headline-stats">
+      <div class="stat-card">
+        <span class="stat-value" id="stat-runs">--</span>
+        <span class="stat-label">Avg runs increase per innings</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-boundary">--</span>
+        <span class="stat-label">Boundary % increase</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-wickets">--</span>
+        <span class="stat-label">Change in wickets lost</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-200plus">--</span>
+        <span class="stat-label">200+ scores (after vs before)</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-sixes">--</span>
+        <span class="stat-label">More sixes per match</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-field">--</span>
+        <span class="stat-label">Captains now choose to field</span>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <h2>Average Innings Score by Season</h2>
+      <canvas id="seasonChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Where Are the Extra Runs Coming From?</h2>
+      <p>
+        Breaking total runs down by phase of the innings shows the increase is
+        concentrated early — not in the death overs, as commonly assumed.
+      </p>
+      <canvas id="phaseChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Strike Rate by Batting Role</h2>
+      <canvas id="roleChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Which Teams Adapted the Most?</h2>
+      <canvas id="teamChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Home Ground Scoring: Before vs After</h2>
+      <p>
+        Average runs scored at each team's home venue. Note: Gujarat Titans and
+        Lucknow Super Giants have limited or no "before" data since both
+        franchises formed in 2022, right at the edge of the rule change.
+      </p>
+      <canvas id="homeVenueChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Bowling Economy by Phase</h2>
+      <p>
+        Economy rates rose across all phases after the rule, with the powerplay
+        showing the sharpest increase — mirroring the batting-side finding that
+        openers became significantly more aggressive.
+      </p>
+      <canvas id="bowlingPhaseChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Spin vs Pace: Who Suffered More?</h2>
+      <p>
+        Both bowling types got more expensive, but neither lost their
+        wicket-taking ability — suggesting the rule encourages aggressive
+        batting without making batters reckless.
+      </p>
+      <canvas id="bowlingTypeChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Did Chasing Get Harder?</h2>
+      <p>
+        Teams batting first now win slightly more often — suggesting higher
+        first-innings totals are making successful chases marginally harder,
+        though the effect is smaller than the scoring surge might suggest.
+      </p>
+      <canvas id="winPctChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>How Each Team Changed Their Batting Style</h2>
+      <p>
+        Every current IPL team increased their boundary hitting and reduced dot
+        balls after the rule — but some adapted far more aggressively than
+        others.
+      </p>
+      <canvas id="teamStyleChart"></canvas>
+    </section>
+
+    <section class="findings-section">
+      <h2>What the Data Shows</h2>
+
+      <div class="finding">
+        <h3>✅ Scores rose sharply — but not everywhere equally</h3>
+        <p>
+          Average first-innings scores jumped from 162 to 189 runs after the
+          rule (+26 runs). The increase is consistent across all 9 home grounds
+          with sufficient data, from +21 at Delhi to +37 at Hyderabad —
+          suggesting the rule itself, not just pitch conditions, is the primary
+          driver. Chennai is the notable outlier at only +10, likely due to
+          Chepauk's spin-friendly surface resisting the broader trend.
+        </p>
+      </div>
+
+      <div class="finding">
+        <h3>✅ Openers changed the most — not death-over finishers</h3>
+        <p>
+          The conventional wisdom is that Impact Player helps teams by bringing
+          in a specialist death-over hitter. But the data says otherwise: opener
+          strike rates jumped from 125 to 150 (+24 points), while death-over
+          runs stayed essentially flat. Powerplay and middle-over scoring drove
+          the entire increase — consistent with batters playing more freely from
+          ball one, knowing a specialist replacement is available if they fall
+          early.
+        </p>
+      </div>
+
+      <div class="finding">
+        <h3>✅ Boundaries up, dot balls down — wickets barely changed</h3>
+        <p>
+          Boundary % rose from 16% to 20% while dot ball % fell from 35% to 31%.
+          Crucially, wickets per innings barely moved (6.09 → 6.27). Batters are
+          scoring more freely without being dismissed meaningfully more often —
+          which argues strongly for a tactical/psychological shift in batting
+          approach, not just luck or pitch conditions.
+        </p>
+      </div>
+
+      <div class="finding">
+        <h3>✅ 200+ scores went from rare to routine</h3>
+        <p>
+          Before the rule, only 10% of first innings crossed 200. After, it's
+          41% — almost every other match. This is perhaps the most striking
+          single number in the dataset.
+        </p>
+      </div>
+
+      <div class="finding">
+        <h3>⚠️ Correlation, not causation</h3>
+        <p>
+          Scoring was already trending upward before 2023, driven by better
+          bats, evolving T20 batting techniques, and shorter boundaries at some
+          venues. This analysis shows a clear acceleration after the rule was
+          introduced, and the pattern (openers specifically, powerplay/middle
+          overs specifically) is consistent with the rule's mechanism — but
+          definitively proving causation would require a controlled experiment
+          that cricket doesn't offer.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Data source: Cricsheet.org · Analysis built with Python/pandas · 1243
+        IPL matches (2008–2026)
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

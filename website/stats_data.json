@@ -1,0 +1,609 @@
+{
+  "home_away": [
+    {
+      "team": "Mumbai Indians",
+      "home_win_pct": 59.2,
+      "away_win_pct": 51.3,
+      "home_matches": 98,
+      "away_matches": 189,
+      "home_advantage": 7.9
+    },
+    {
+      "team": "Chennai Super Kings",
+      "home_win_pct": 66.3,
+      "away_win_pct": 51.4,
+      "home_matches": 83,
+      "away_matches": 181,
+      "home_advantage": 14.9
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "home_win_pct": 51.0,
+      "away_win_pct": 51.1,
+      "home_matches": 96,
+      "away_matches": 184,
+      "home_advantage": -0.1
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "home_win_pct": 57.0,
+      "away_win_pct": 48.5,
+      "home_matches": 100,
+      "away_matches": 171,
+      "home_advantage": 8.5
+    },
+    {
+      "team": "Delhi Capitals",
+      "home_win_pct": 41.8,
+      "away_win_pct": 48.1,
+      "home_matches": 91,
+      "away_matches": 181,
+      "home_advantage": -6.3
+    },
+    {
+      "team": "Punjab Kings",
+      "home_win_pct": 49.3,
+      "away_win_pct": 45.4,
+      "home_matches": 75,
+      "away_matches": 196,
+      "home_advantage": 3.9
+    },
+    {
+      "team": "Rajasthan Royals",
+      "home_win_pct": 59.1,
+      "away_win_pct": 46.9,
+      "home_matches": 66,
+      "away_matches": 179,
+      "home_advantage": 12.2
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "home_win_pct": 52.3,
+      "away_win_pct": 44.1,
+      "home_matches": 86,
+      "away_matches": 195,
+      "home_advantage": 8.2
+    },
+    {
+      "team": "Gujarat Titans",
+      "home_win_pct": 58.1,
+      "away_win_pct": 63.0,
+      "home_matches": 31,
+      "away_matches": 46,
+      "home_advantage": -4.9
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "home_win_pct": 42.3,
+      "away_win_pct": 52.3,
+      "home_matches": 26,
+      "away_matches": 44,
+      "home_advantage": -10.0
+    }
+  ],
+  "best_venues": [
+    {
+      "team": "Mumbai Indians",
+      "best_venue": "Brabourne Stadium",
+      "win_pct": 71.4,
+      "matches": 7,
+      "wins": 5
+    },
+    {
+      "team": "Chennai Super Kings",
+      "best_venue": "Maharashtra Cricket Association Stadium",
+      "win_pct": 83.3,
+      "matches": 6,
+      "wins": 5
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "best_venue": "Punjab Cricket Association Stadium, Mohali",
+      "win_pct": 70.0,
+      "matches": 10,
+      "wins": 7
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "best_venue": "Rajiv Gandhi International Stadium",
+      "win_pct": 70.0,
+      "matches": 10,
+      "wins": 7
+    },
+    {
+      "team": "Delhi Capitals",
+      "best_venue": "Shaheed Veer Narayan Singh International Stadium",
+      "win_pct": 66.7,
+      "matches": 6,
+      "wins": 4
+    },
+    {
+      "team": "Punjab Kings",
+      "best_venue": "Sharjah Cricket Stadium",
+      "win_pct": 71.4,
+      "matches": 7,
+      "wins": 5
+    },
+    {
+      "team": "Rajasthan Royals",
+      "best_venue": "Sheikh Zayed Stadium",
+      "win_pct": 71.4,
+      "matches": 7,
+      "wins": 5
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "best_venue": "Arun Jaitley Stadium",
+      "win_pct": 64.7,
+      "matches": 17,
+      "wins": 11
+    },
+    {
+      "team": "Gujarat Titans",
+      "best_venue": "Wankhede Stadium",
+      "win_pct": 66.7,
+      "matches": 6,
+      "wins": 4
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "best_venue": "Eden Gardens",
+      "win_pct": 60.0,
+      "matches": 5,
+      "wins": 3
+    }
+  ],
+  "toss_by_venue": [
+    {
+      "venue": "SuperSport Park",
+      "matches": 12,
+      "toss_win_pct": 66.7
+    },
+    {
+      "venue": "Ekana Cricket Stadium",
+      "matches": 27,
+      "toss_win_pct": 66.7
+    },
+    {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "matches": 22,
+      "toss_win_pct": 63.6
+    },
+    {
+      "venue": "Kingsmead",
+      "matches": 15,
+      "toss_win_pct": 60.0
+    },
+    {
+      "venue": "Brabourne Stadium",
+      "matches": 10,
+      "toss_win_pct": 60.0
+    },
+    {
+      "venue": "Sharjah Cricket Stadium",
+      "matches": 28,
+      "toss_win_pct": 57.1
+    },
+    {
+      "venue": "Subrata Roy Sahara Stadium",
+      "matches": 16,
+      "toss_win_pct": 56.2
+    },
+    {
+      "venue": "Sawai Mansingh Stadium",
+      "matches": 68,
+      "toss_win_pct": 55.9
+    },
+    {
+      "venue": "Dr DY Patil Sports Academy, Mumbai",
+      "matches": 20,
+      "toss_win_pct": 55.0
+    },
+    {
+      "venue": "M Chinnaswamy Stadium",
+      "matches": 100,
+      "toss_win_pct": 55.0
+    },
+    {
+      "venue": "Dr DY Patil Sports Academy",
+      "matches": 17,
+      "toss_win_pct": 52.9
+    },
+    {
+      "venue": "Wankhede Stadium",
+      "matches": 131,
+      "toss_win_pct": 51.9
+    },
+    {
+      "venue": "Sheikh Zayed Stadium",
+      "matches": 27,
+      "toss_win_pct": 51.9
+    },
+    {
+      "venue": "Arun Jaitley Stadium",
+      "matches": 101,
+      "toss_win_pct": 51.5
+    },
+    {
+      "venue": "MA Chidambaram Stadium",
+      "matches": 96,
+      "toss_win_pct": 51.0
+    },
+    {
+      "venue": "Eden Gardens",
+      "matches": 105,
+      "toss_win_pct": 50.5
+    },
+    {
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "matches": 78,
+      "toss_win_pct": 50.0
+    },
+    {
+      "venue": "Brabourne Stadium, Mumbai",
+      "matches": 17,
+      "toss_win_pct": 47.1
+    },
+    {
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "matches": 52,
+      "toss_win_pct": 46.2
+    },
+    {
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "matches": 13,
+      "toss_win_pct": 46.2
+    },
+    {
+      "venue": "Dubai International Cricket Stadium",
+      "matches": 43,
+      "toss_win_pct": 41.9
+    },
+    {
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "matches": 13,
+      "toss_win_pct": 38.5
+    },
+    {
+      "venue": "Rajiv Gandhi International Stadium",
+      "matches": 88,
+      "toss_win_pct": 37.5
+    }
+  ],
+  "top_openers": [
+    {
+      "batter": "V Suryavanshi",
+      "innings": 22,
+      "runs": 1024,
+      "avg_runs": 46.5,
+      "strike_rate": 217.4,
+      "boundary_pct": 37.4
+    },
+    {
+      "batter": "Priyansh Arya",
+      "innings": 31,
+      "runs": 909,
+      "avg_runs": 29.3,
+      "strike_rate": 185.1,
+      "boundary_pct": 30.5
+    },
+    {
+      "batter": "Abhishek Sharma",
+      "innings": 45,
+      "runs": 1448,
+      "avg_runs": 32.2,
+      "strike_rate": 178.3,
+      "boundary_pct": 29.1
+    },
+    {
+      "batter": "PD Salt",
+      "innings": 35,
+      "runs": 1148,
+      "avg_runs": 32.8,
+      "strike_rate": 169.8,
+      "boundary_pct": 27.8
+    },
+    {
+      "batter": "TM Head",
+      "innings": 38,
+      "runs": 1297,
+      "avg_runs": 34.1,
+      "strike_rate": 169.8,
+      "boundary_pct": 28.8
+    },
+    {
+      "batter": "RD Rickelton",
+      "innings": 23,
+      "runs": 805,
+      "avg_runs": 35.0,
+      "strike_rate": 165.0,
+      "boundary_pct": 26.0
+    },
+    {
+      "batter": "SP Narine",
+      "innings": 24,
+      "runs": 661,
+      "avg_runs": 27.5,
+      "strike_rate": 164.4,
+      "boundary_pct": 28.1
+    },
+    {
+      "batter": "P Simran Singh",
+      "innings": 46,
+      "runs": 1492,
+      "avg_runs": 32.4,
+      "strike_rate": 160.1,
+      "boundary_pct": 25.3
+    },
+    {
+      "batter": "MR Marsh",
+      "innings": 30,
+      "runs": 1301,
+      "avg_runs": 43.4,
+      "strike_rate": 157.1,
+      "boundary_pct": 23.8
+    },
+    {
+      "batter": "SV Samson",
+      "innings": 24,
+      "runs": 858,
+      "avg_runs": 35.8,
+      "strike_rate": 155.4,
+      "boundary_pct": 24.6
+    },
+    {
+      "batter": "YBK Jaiswal",
+      "innings": 59,
+      "runs": 2046,
+      "avg_runs": 34.7,
+      "strike_rate": 152.7,
+      "boundary_pct": 25.1
+    },
+    {
+      "batter": "Shubman Gill",
+      "innings": 57,
+      "runs": 2538,
+      "avg_runs": 44.5,
+      "strike_rate": 151.3,
+      "boundary_pct": 20.3
+    },
+    {
+      "batter": "Ishan Kishan",
+      "innings": 32,
+      "runs": 940,
+      "avg_runs": 29.4,
+      "strike_rate": 150.4,
+      "boundary_pct": 24.5
+    },
+    {
+      "batter": "B Sai Sudharsan",
+      "innings": 37,
+      "runs": 1717,
+      "avg_runs": 46.4,
+      "strike_rate": 148.8,
+      "boundary_pct": 21.1
+    },
+    {
+      "batter": "F du Plessis",
+      "innings": 34,
+      "runs": 1181,
+      "avg_runs": 34.7,
+      "strike_rate": 147.3,
+      "boundary_pct": 20.2
+    }
+  ],
+  "top_pp_bowlers": [
+    {
+      "bowler": "JJ Bumrah",
+      "balls": 381,
+      "wickets": 13,
+      "economy": 7.39,
+      "strike_rate": 29.3
+    },
+    {
+      "bowler": "TA Boult",
+      "balls": 633,
+      "wickets": 32,
+      "economy": 7.76,
+      "strike_rate": 19.8
+    },
+    {
+      "bowler": "B Kumar",
+      "balls": 817,
+      "wickets": 42,
+      "economy": 7.76,
+      "strike_rate": 19.5
+    },
+    {
+      "bowler": "Sandeep Sharma",
+      "balls": 381,
+      "wickets": 12,
+      "economy": 7.89,
+      "strike_rate": 31.8
+    },
+    {
+      "bowler": "Mohammed Siraj",
+      "balls": 912,
+      "wickets": 40,
+      "economy": 7.91,
+      "strike_rate": 22.8
+    },
+    {
+      "bowler": "Mohammed Shami",
+      "balls": 608,
+      "wickets": 31,
+      "economy": 7.99,
+      "strike_rate": 19.6
+    },
+    {
+      "bowler": "KK Ahmed",
+      "balls": 621,
+      "wickets": 22,
+      "economy": 8.26,
+      "strike_rate": 28.2
+    },
+    {
+      "bowler": "DL Chahar",
+      "balls": 612,
+      "wickets": 29,
+      "economy": 8.27,
+      "strike_rate": 21.1
+    },
+    {
+      "bowler": "T Natarajan",
+      "balls": 202,
+      "wickets": 6,
+      "economy": 8.47,
+      "strike_rate": 33.7
+    },
+    {
+      "bowler": "JR Hazlewood",
+      "balls": 331,
+      "wickets": 19,
+      "economy": 8.61,
+      "strike_rate": 17.4
+    },
+    {
+      "bowler": "M Theekshana",
+      "balls": 229,
+      "wickets": 4,
+      "economy": 8.62,
+      "strike_rate": 57.2
+    },
+    {
+      "bowler": "TU Deshpande",
+      "balls": 472,
+      "wickets": 17,
+      "economy": 8.63,
+      "strike_rate": 27.8
+    },
+    {
+      "bowler": "I Sharma",
+      "balls": 276,
+      "wickets": 15,
+      "economy": 8.7,
+      "strike_rate": 18.4
+    },
+    {
+      "bowler": "SM Curran",
+      "balls": 252,
+      "wickets": 3,
+      "economy": 8.71,
+      "strike_rate": 84.0
+    },
+    {
+      "bowler": "AR Patel",
+      "balls": 268,
+      "wickets": 9,
+      "economy": 8.71,
+      "strike_rate": 29.8
+    }
+  ],
+  "top_death_bowlers": [
+    {
+      "bowler": "JJ Bumrah",
+      "balls": 241,
+      "wickets": 20,
+      "economy": 7.15,
+      "strike_rate": 12.0
+    },
+    {
+      "bowler": "M Pathirana",
+      "balls": 331,
+      "wickets": 37,
+      "economy": 8.39,
+      "strike_rate": 8.9
+    },
+    {
+      "bowler": "VG Arora",
+      "balls": 221,
+      "wickets": 19,
+      "economy": 9.18,
+      "strike_rate": 11.6
+    },
+    {
+      "bowler": "YS Chahal",
+      "balls": 156,
+      "wickets": 20,
+      "economy": 9.35,
+      "strike_rate": 7.8
+    },
+    {
+      "bowler": "Mohammed Siraj",
+      "balls": 331,
+      "wickets": 24,
+      "economy": 9.46,
+      "strike_rate": 13.8
+    },
+    {
+      "bowler": "JR Hazlewood",
+      "balls": 153,
+      "wickets": 11,
+      "economy": 9.49,
+      "strike_rate": 13.9
+    },
+    {
+      "bowler": "B Kumar",
+      "balls": 386,
+      "wickets": 29,
+      "economy": 9.65,
+      "strike_rate": 13.3
+    },
+    {
+      "bowler": "Avesh Khan",
+      "balls": 316,
+      "wickets": 25,
+      "economy": 9.76,
+      "strike_rate": 12.6
+    },
+    {
+      "bowler": "HV Patel",
+      "balls": 319,
+      "wickets": 36,
+      "economy": 9.86,
+      "strike_rate": 8.9
+    },
+    {
+      "bowler": "TA Boult",
+      "balls": 169,
+      "wickets": 16,
+      "economy": 9.94,
+      "strike_rate": 10.6
+    },
+    {
+      "bowler": "T Natarajan",
+      "balls": 303,
+      "wickets": 27,
+      "economy": 9.96,
+      "strike_rate": 11.2
+    },
+    {
+      "bowler": "SN Thakur",
+      "balls": 174,
+      "wickets": 18,
+      "economy": 10.07,
+      "strike_rate": 9.7
+    },
+    {
+      "bowler": "Arshdeep Singh",
+      "balls": 368,
+      "wickets": 34,
+      "economy": 10.16,
+      "strike_rate": 10.8
+    },
+    {
+      "bowler": "MM Sharma",
+      "balls": 252,
+      "wickets": 27,
+      "economy": 10.21,
+      "strike_rate": 9.3
+    },
+    {
+      "bowler": "Yash Thakur",
+      "balls": 180,
+      "wickets": 17,
+      "economy": 10.3,
+      "strike_rate": 10.6
+    }
+  ]
+}

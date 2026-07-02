@@ -1,0 +1,24 @@
+{
+  "winner_prediction": {
+    "best_model": "Logistic Regression V2",
+    "features": 21,
+    "pre_match_accuracy": 0.465,
+    "post_powerplay_accuracy": 0.587
+  },
+  "score_prediction": {
+    "best_model": "Linear Regression V1",
+    "features": 14,
+    "pre_match_mae": 30.9,
+    "pre_match_r2": -0.148,
+    "post_powerplay_mae": 22.6,
+    "post_powerplay_r2": 0.387
+  },
+  "key_findings": [
+    "Powerplay wickets lost is stronger predictor than powerplay runs scored",
+    "Home advantage and H2H record are strongest pre-match signals",
+    "Pre-match features alone cannot predict T20 scores (negative R\u00b2)",
+    "Knowing powerplay score improves winner prediction from 46% to 59%",
+    "New features (season win rate, venue avg, bowling strength) gave marginal gains",
+    "T20 cricket's inherent variance limits predictability \u2014 honest ceiling ~60%"
+  ]
+}

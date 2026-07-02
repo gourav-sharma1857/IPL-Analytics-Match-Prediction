@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Match Predictor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>IPL Match Predictor</h1>
+      <p class="subtitle">
+        Logistic Regression model trained on 932 IPL matches (2008–2022), tested
+        on 286 matches (2023–2026)
+      </p>
+    </header>
+
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link">Impact Player Analysis</a>
+      <a href="stats.html" class="nav-link">Player & Venue Stats</a>
+      <a href="model.html" class="nav-link active">Match Predictor</a>
+    </nav>
+
+    <!-- Model performance summary -->
+    <section id="headline-stats">
+      <div class="stat-card">
+        <span class="stat-value" id="stat-pre-acc">--</span>
+        <span class="stat-label">Pre-match winner accuracy</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-pp-acc">--</span>
+        <span class="stat-label">Post-powerplay winner accuracy</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-pre-mae">--</span>
+        <span class="stat-label">Pre-match score MAE (runs)</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-pp-mae">--</span>
+        <span class="stat-label">Post-powerplay score MAE (runs)</span>
+      </div>
+    </section>
+
+    <!-- Live predictor -->
+    <section class="predictor-section">
+      <h2>Live Match Predictor</h2>
+      <p>
+        Fill in match details to get a prediction. Powerplay fields are optional
+        — leave blank for a pre-match prediction.
+      </p>
+
+      <div class="predictor-grid">
+        <div class="predictor-col">
+          <label>Batting First Team</label>
+          <select id="team1">
+            <option value="">Select team...</option>
+          </select>
+
+          <label>Bowling Team</label>
+          <select id="team2">
+            <option value="">Select team...</option>
+          </select>
+
+          <label>Venue</label>
+          <select id="venue">
+            <option value="">Select venue...</option>
+          </select>
+
+          <label>Toss Decision</label>
+          <select id="toss-decision">
+            <option value="field">Chose to Field</option>
+            <option value="bat">Chose to Bat</option>
+          </select>
+        </div>
+
+        <div class="predictor-col">
+          <label>Powerplay Runs (optional)</label>
+          <input
+            type="number"
+            id="pp-runs"
+            placeholder="e.g. 58"
+            min="0"
+            max="120"
+          />
+
+          <label>Powerplay Wickets (optional)</label>
+          <input
+            type="number"
+            id="pp-wickets"
+            placeholder="e.g. 2"
+            min="0"
+            max="6"
+          />
+
+          <label>Season</label>
+          <input type="number" id="season" value="2025" min="2008" max="2026" />
+
+          <button id="predict-btn">Predict</button>
+        </div>
+      </div>
+
+      <div id="prediction-result" class="prediction-result hidden">
+        <div class="prediction-winner">
+          <h3>Predicted Winner</h3>
+          <span id="pred-winner">--</span>
+          <span id="pred-win-prob" class="prob">--</span>
+        </div>
+        <div class="prediction-score">
+          <h3>Predicted Score</h3>
+          <span id="pred-score">--</span>
+          <span class="prob">first innings</span>
+        </div>
+        <div class="prediction-mode">
+          <span id="pred-mode">--</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature importance chart -->
+    <section class="chart-section">
+      <h2>What Drives the Prediction?</h2>
+      <p>
+        Feature coefficients from the post-powerplay winner model. Larger
+        absolute value = more influence on the prediction.
+      </p>
+      <canvas id="featureChart"></canvas>
+    </section>
+
+    <!-- Model comparison chart -->
+    <section class="chart-section">
+      <h2>Model Performance Comparison</h2>
+      <p>
+        How much does knowing the powerplay score improve prediction accuracy?
+      </p>
+      <canvas id="modelCompChart"></canvas>
+    </section>
+
+    <footer>
+      <p>
+        Data source: Cricsheet.org · Model: Logistic Regression · Train:
+        2008–2022 · Test: 2023–2026
+      </p>
+    </footer>
+
+    <script src="model.js"></script>
+  </body>
+</html>

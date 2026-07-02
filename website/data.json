@@ -1,0 +1,681 @@
+{
+  "era_summary": {
+    "before": {
+      "avg_runs_inn1": 162.41,
+      "avg_runs_inn2": 149.28,
+      "avg_wickets_inn1": 6.09,
+      "avg_wickets_inn2": 5.63,
+      "boundary_pct_inn1": 16.08,
+      "boundary_pct_inn2": 16.11,
+      "balls_per_boundary": 6.9,
+      "balls_per_wicket": 23.73
+    },
+    "after": {
+      "avg_runs_inn1": 188.54,
+      "avg_runs_inn2": 174.29,
+      "avg_wickets_inn1": 6.27,
+      "avg_wickets_inn2": 5.93,
+      "boundary_pct_inn1": 19.97,
+      "boundary_pct_inn2": 20.47,
+      "balls_per_boundary": 5.43,
+      "balls_per_wicket": 23.15
+    }
+  },
+  "extra_stats": {
+    "pct_200_plus": {
+      "before": 10.2,
+      "after": 41.3
+    },
+    "avg_sixes_per_match": {
+      "before": 11.2,
+      "after": 17.6
+    },
+    "toss_field_pct": {
+      "before": 63.1,
+      "after": 77.1
+    }
+  },
+  "season_trend": [
+    {
+      "season": 2008,
+      "total_runs_inn1": 161.0,
+      "total_runs_inn2": 148.3
+    },
+    {
+      "season": 2009,
+      "total_runs_inn1": 150.3,
+      "total_runs_inn2": 136.1
+    },
+    {
+      "season": 2010,
+      "total_runs_inn1": 164.8,
+      "total_runs_inn2": 149.6
+    },
+    {
+      "season": 2011,
+      "total_runs_inn1": 152.4,
+      "total_runs_inn2": 139.3
+    },
+    {
+      "season": 2012,
+      "total_runs_inn1": 157.5,
+      "total_runs_inn2": 145.9
+    },
+    {
+      "season": 2013,
+      "total_runs_inn1": 155.9,
+      "total_runs_inn2": 140.7
+    },
+    {
+      "season": 2014,
+      "total_runs_inn1": 163.1,
+      "total_runs_inn2": 152.1
+    },
+    {
+      "season": 2015,
+      "total_runs_inn1": 166.3,
+      "total_runs_inn2": 146.9
+    },
+    {
+      "season": 2016,
+      "total_runs_inn1": 162.6,
+      "total_runs_inn2": 151.8
+    },
+    {
+      "season": 2017,
+      "total_runs_inn1": 165.8,
+      "total_runs_inn2": 152.3
+    },
+    {
+      "season": 2018,
+      "total_runs_inn1": 172.5,
+      "total_runs_inn2": 159.2
+    },
+    {
+      "season": 2019,
+      "total_runs_inn1": 166.7,
+      "total_runs_inn2": 156.6
+    },
+    {
+      "season": 2020,
+      "total_runs_inn1": 169.5,
+      "total_runs_inn2": 153.0
+    },
+    {
+      "season": 2021,
+      "total_runs_inn1": 159.3,
+      "total_runs_inn2": 151.0
+    },
+    {
+      "season": 2022,
+      "total_runs_inn1": 171.1,
+      "total_runs_inn2": 158.5
+    },
+    {
+      "season": 2023,
+      "total_runs_inn1": 182.7,
+      "total_runs_inn2": 166.7
+    },
+    {
+      "season": 2024,
+      "total_runs_inn1": 189.6,
+      "total_runs_inn2": 176.2
+    },
+    {
+      "season": 2025,
+      "total_runs_inn1": 188.8,
+      "total_runs_inn2": 174.0
+    },
+    {
+      "season": 2026,
+      "total_runs_inn1": 193.0,
+      "total_runs_inn2": 180.4
+    }
+  ],
+  "phase_trend": [
+    {
+      "season": 2008,
+      "pp_runs_inn1": 44.9,
+      "mid_runs_inn1": 76.7,
+      "death_runs_inn1": 39.4
+    },
+    {
+      "season": 2009,
+      "pp_runs_inn1": 44.0,
+      "mid_runs_inn1": 69.2,
+      "death_runs_inn1": 37.0
+    },
+    {
+      "season": 2010,
+      "pp_runs_inn1": 47.0,
+      "mid_runs_inn1": 75.7,
+      "death_runs_inn1": 42.1
+    },
+    {
+      "season": 2011,
+      "pp_runs_inn1": 41.9,
+      "mid_runs_inn1": 75.4,
+      "death_runs_inn1": 35.1
+    },
+    {
+      "season": 2012,
+      "pp_runs_inn1": 42.7,
+      "mid_runs_inn1": 75.8,
+      "death_runs_inn1": 39.0
+    },
+    {
+      "season": 2013,
+      "pp_runs_inn1": 41.0,
+      "mid_runs_inn1": 73.4,
+      "death_runs_inn1": 41.4
+    },
+    {
+      "season": 2014,
+      "pp_runs_inn1": 44.3,
+      "mid_runs_inn1": 79.5,
+      "death_runs_inn1": 39.2
+    },
+    {
+      "season": 2015,
+      "pp_runs_inn1": 47.0,
+      "mid_runs_inn1": 78.4,
+      "death_runs_inn1": 40.8
+    },
+    {
+      "season": 2016,
+      "pp_runs_inn1": 43.9,
+      "mid_runs_inn1": 79.2,
+      "death_runs_inn1": 39.5
+    },
+    {
+      "season": 2017,
+      "pp_runs_inn1": 47.3,
+      "mid_runs_inn1": 78.9,
+      "death_runs_inn1": 39.6
+    },
+    {
+      "season": 2018,
+      "pp_runs_inn1": 49.7,
+      "mid_runs_inn1": 82.7,
+      "death_runs_inn1": 40.0
+    },
+    {
+      "season": 2019,
+      "pp_runs_inn1": 46.2,
+      "mid_runs_inn1": 77.5,
+      "death_runs_inn1": 43.0
+    },
+    {
+      "season": 2020,
+      "pp_runs_inn1": 46.1,
+      "mid_runs_inn1": 78.4,
+      "death_runs_inn1": 44.9
+    },
+    {
+      "season": 2021,
+      "pp_runs_inn1": 43.8,
+      "mid_runs_inn1": 76.5,
+      "death_runs_inn1": 39.0
+    },
+    {
+      "season": 2022,
+      "pp_runs_inn1": 47.8,
+      "mid_runs_inn1": 80.5,
+      "death_runs_inn1": 42.9
+    },
+    {
+      "season": 2023,
+      "pp_runs_inn1": 52.9,
+      "mid_runs_inn1": 84.9,
+      "death_runs_inn1": 44.9
+    },
+    {
+      "season": 2024,
+      "pp_runs_inn1": 54.3,
+      "mid_runs_inn1": 89.9,
+      "death_runs_inn1": 45.5
+    },
+    {
+      "season": 2025,
+      "pp_runs_inn1": 57.8,
+      "mid_runs_inn1": 87.9,
+      "death_runs_inn1": 43.2
+    },
+    {
+      "season": 2026,
+      "pp_runs_inn1": 59.1,
+      "mid_runs_inn1": 91.8,
+      "death_runs_inn1": 42.1
+    }
+  ],
+  "role_summary": [
+    {
+      "has_impact_player_rule": false,
+      "role": "lower_order",
+      "total_runs": 49717,
+      "total_balls": 41536,
+      "boundaries": 3582,
+      "sixes": 2152,
+      "strike_rate": 119.7,
+      "boundary_pct": 13.8
+    },
+    {
+      "has_impact_player_rule": false,
+      "role": "middle_order",
+      "total_runs": 124977,
+      "total_balls": 99639,
+      "boundaries": 10472,
+      "sixes": 4877,
+      "strike_rate": 125.43,
+      "boundary_pct": 15.4
+    },
+    {
+      "has_impact_player_rule": false,
+      "role": "opener",
+      "total_runs": 106285,
+      "total_balls": 84779,
+      "boundaries": 11446,
+      "sixes": 3637,
+      "strike_rate": 125.37,
+      "boundary_pct": 17.79
+    },
+    {
+      "has_impact_player_rule": true,
+      "role": "lower_order",
+      "total_runs": 20089,
+      "total_balls": 15046,
+      "boundaries": 1500,
+      "sixes": 1085,
+      "strike_rate": 133.52,
+      "boundary_pct": 17.18
+    },
+    {
+      "has_impact_player_rule": true,
+      "role": "middle_order",
+      "total_runs": 42968,
+      "total_balls": 29788,
+      "boundaries": 3542,
+      "sixes": 2238,
+      "strike_rate": 144.25,
+      "boundary_pct": 19.4
+    },
+    {
+      "has_impact_player_rule": true,
+      "role": "opener",
+      "total_runs": 37493,
+      "total_balls": 24944,
+      "boundaries": 3905,
+      "sixes": 1790,
+      "strike_rate": 150.31,
+      "boundary_pct": 22.83
+    }
+  ],
+  "team_era_avg": [
+    {
+      "team": "Chennai Super Kings",
+      "avg_runs_before": 160.5,
+      "avg_runs_after": 179.1,
+      "increase": 18.6
+    },
+    {
+      "team": "Delhi Capitals",
+      "avg_runs_before": 153.6,
+      "avg_runs_after": 175.0,
+      "increase": 21.4
+    },
+    {
+      "team": "Gujarat Lions",
+      "avg_runs_before": 161.9,
+      "avg_runs_after": null,
+      "increase": null
+    },
+    {
+      "team": "Gujarat Titans",
+      "avg_runs_before": 166.4,
+      "avg_runs_after": 181.6,
+      "increase": 15.2
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "avg_runs_before": 135.8,
+      "avg_runs_after": null,
+      "increase": null
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "avg_runs_before": 153.2,
+      "avg_runs_after": 171.7,
+      "increase": 18.5
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "avg_runs_before": 169.9,
+      "avg_runs_after": 179.0,
+      "increase": 9.1
+    },
+    {
+      "team": "Mumbai Indians",
+      "avg_runs_before": 158.5,
+      "avg_runs_after": 183.0,
+      "increase": 24.5
+    },
+    {
+      "team": "Pune Warriors",
+      "avg_runs_before": 141.3,
+      "avg_runs_after": null,
+      "increase": null
+    },
+    {
+      "team": "Punjab Kings",
+      "avg_runs_before": 158.3,
+      "avg_runs_after": 186.7,
+      "increase": 28.4
+    },
+    {
+      "team": "Rajasthan Royals",
+      "avg_runs_before": 155.2,
+      "avg_runs_after": 182.1,
+      "increase": 26.9
+    },
+    {
+      "team": "Rising Pune Supergiants",
+      "avg_runs_before": 151.1,
+      "avg_runs_after": null,
+      "increase": null
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "avg_runs_before": 155.5,
+      "avg_runs_after": 185.7,
+      "increase": 30.2
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "avg_runs_before": 154.5,
+      "avg_runs_after": 189.6,
+      "increase": 35.1
+    }
+  ],
+  "home_venue_trend": [
+    {
+      "home_team": "Chennai Super Kings",
+      "before": 162.3,
+      "after": 172.7,
+      "before_n": 67.0,
+      "after_n": 31.0,
+      "increase": 10.4
+    },
+    {
+      "home_team": "Delhi Capitals",
+      "before": 164.5,
+      "after": 193.4,
+      "before_n": 78.0,
+      "after_n": 26.0,
+      "increase": 28.9
+    },
+    {
+      "home_team": "Gujarat Titans",
+      "before": 159.9,
+      "after": 192.3,
+      "before_n": 19.0,
+      "after_n": 34.0,
+      "increase": 32.4
+    },
+    {
+      "home_team": "Kolkata Knight Riders",
+      "before": 161.1,
+      "after": 189.8,
+      "before_n": 79.0,
+      "after_n": 28.0,
+      "increase": 28.7
+    },
+    {
+      "home_team": "Lucknow Super Giants",
+      "before": null,
+      "after": 174.8,
+      "before_n": null,
+      "after_n": 29.0,
+      "increase": null
+    },
+    {
+      "home_team": "Mumbai Indians",
+      "before": 167.2,
+      "after": 195.2,
+      "before_n": 104.0,
+      "after_n": 28.0,
+      "increase": 28.0
+    },
+    {
+      "home_team": "Punjab Kings",
+      "before": 165.6,
+      "after": 189.1,
+      "before_n": 56.0,
+      "after_n": 22.0,
+      "increase": 23.5
+    },
+    {
+      "home_team": "Rajasthan Royals",
+      "before": 157.7,
+      "after": 194.5,
+      "before_n": 47.0,
+      "after_n": 21.0,
+      "increase": 36.8
+    },
+    {
+      "home_team": "Royal Challengers Bengaluru",
+      "before": 169.2,
+      "after": 190.4,
+      "before_n": 80.0,
+      "after_n": 24.0,
+      "increase": 21.2
+    },
+    {
+      "home_team": "Sunrisers Hyderabad",
+      "before": 157.7,
+      "after": 194.7,
+      "before_n": 64.0,
+      "after_n": 26.0,
+      "increase": 37.0
+    }
+  ],
+  "bowling_phase": [
+    {
+      "has_impact_player_rule": false,
+      "phase": "death",
+      "runs_conceded": 64456,
+      "balls_bowled": 40218,
+      "wickets": 3516,
+      "economy": 9.62,
+      "balls_per_wicket": 11.4
+    },
+    {
+      "has_impact_player_rule": false,
+      "phase": "middle",
+      "runs_conceded": 144176,
+      "balls_bowled": 114654,
+      "wickets": 4912,
+      "economy": 7.54,
+      "balls_per_wicket": 23.3
+    },
+    {
+      "has_impact_player_rule": false,
+      "phase": "powerplay",
+      "runs_conceded": 87465,
+      "balls_bowled": 71082,
+      "wickets": 2723,
+      "economy": 7.38,
+      "balls_per_wicket": 26.1
+    },
+    {
+      "has_impact_player_rule": true,
+      "phase": "death",
+      "runs_conceded": 21265,
+      "balls_bowled": 12351,
+      "wickets": 1027,
+      "economy": 10.33,
+      "balls_per_wicket": 12.0
+    },
+    {
+      "has_impact_player_rule": true,
+      "phase": "middle",
+      "runs_conceded": 51338,
+      "balls_bowled": 35605,
+      "wickets": 1636,
+      "economy": 8.65,
+      "balls_per_wicket": 21.8
+    },
+    {
+      "has_impact_player_rule": true,
+      "phase": "powerplay",
+      "runs_conceded": 33038,
+      "balls_bowled": 21822,
+      "wickets": 891,
+      "economy": 9.08,
+      "balls_per_wicket": 24.5
+    }
+  ],
+  "bowling_type": [
+    {
+      "has_impact_player_rule": false,
+      "bowl_type": "pace",
+      "runs_conceded": 88706,
+      "balls_bowled": 67315,
+      "wickets": 3559,
+      "economy": 7.91,
+      "balls_per_wicket": 18.9
+    },
+    {
+      "has_impact_player_rule": false,
+      "bowl_type": "spin",
+      "runs_conceded": 44260,
+      "balls_bowled": 36661,
+      "wickets": 1758,
+      "economy": 7.24,
+      "balls_per_wicket": 20.9
+    },
+    {
+      "has_impact_player_rule": true,
+      "bowl_type": "pace",
+      "runs_conceded": 26633,
+      "balls_bowled": 17752,
+      "wickets": 964,
+      "economy": 9.0,
+      "balls_per_wicket": 18.4
+    },
+    {
+      "has_impact_player_rule": true,
+      "bowl_type": "spin",
+      "runs_conceded": 16808,
+      "balls_bowled": 12324,
+      "wickets": 592,
+      "economy": 8.18,
+      "balls_per_wicket": 20.8
+    }
+  ],
+  "win_pct": [
+    {
+      "has_impact_player_rule": false,
+      "count": 932,
+      "bat_first_win_pct": 44.7,
+      "bat_second_win_pct": 55.3
+    },
+    {
+      "has_impact_player_rule": true,
+      "count": 286,
+      "bat_first_win_pct": 47.2,
+      "bat_second_win_pct": 52.8
+    }
+  ],
+  "team_style": [
+    {
+      "team": "Chennai Super Kings",
+      "boundary_pct_before": 16.17,
+      "boundary_pct_after": 18.54,
+      "dot_pct_before": 34.58,
+      "dot_pct_after": 30.81,
+      "boundary_increase": 2.37,
+      "dot_decrease": 3.77
+    },
+    {
+      "team": "Delhi Capitals",
+      "boundary_pct_before": 16.1,
+      "boundary_pct_after": 19.56,
+      "dot_pct_before": 34.64,
+      "dot_pct_after": 33.01,
+      "boundary_increase": 3.46,
+      "dot_decrease": 1.63
+    },
+    {
+      "team": "Gujarat Titans",
+      "boundary_pct_before": 16.7,
+      "boundary_pct_after": 19.28,
+      "dot_pct_before": 31.63,
+      "dot_pct_after": 29.07,
+      "boundary_increase": 2.58,
+      "dot_decrease": 2.56
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "boundary_pct_before": 16.31,
+      "boundary_pct_after": 20.33,
+      "dot_pct_before": 35.88,
+      "dot_pct_after": 34.12,
+      "boundary_increase": 4.02,
+      "dot_decrease": 1.76
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "boundary_pct_before": 16.37,
+      "boundary_pct_after": 18.67,
+      "dot_pct_before": 32.7,
+      "dot_pct_after": 33.01,
+      "boundary_increase": 2.3,
+      "dot_decrease": -0.31
+    },
+    {
+      "team": "Mumbai Indians",
+      "boundary_pct_before": 16.51,
+      "boundary_pct_after": 21.06,
+      "dot_pct_before": 35.96,
+      "dot_pct_after": 32.51,
+      "boundary_increase": 4.55,
+      "dot_decrease": 3.45
+    },
+    {
+      "team": "Punjab Kings",
+      "boundary_pct_before": 16.47,
+      "boundary_pct_after": 21.34,
+      "dot_pct_before": 34.88,
+      "dot_pct_after": 32.03,
+      "boundary_increase": 4.87,
+      "dot_decrease": 2.85
+    },
+    {
+      "team": "Rajasthan Royals",
+      "boundary_pct_before": 16.14,
+      "boundary_pct_after": 21.11,
+      "dot_pct_before": 35.94,
+      "dot_pct_after": 32.82,
+      "boundary_increase": 4.97,
+      "dot_decrease": 3.12
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "boundary_pct_before": 16.47,
+      "boundary_pct_after": 21.39,
+      "dot_pct_before": 35.41,
+      "dot_pct_after": 29.28,
+      "boundary_increase": 4.92,
+      "dot_decrease": 6.13
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "boundary_pct_before": 15.16,
+      "boundary_pct_after": 20.76,
+      "dot_pct_before": 34.39,
+      "dot_pct_after": 30.5,
+      "boundary_increase": 5.6,
+      "dot_decrease": 3.89
+    }
+  ]
+}

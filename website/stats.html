@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Stats — Player & Venue Analysis</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>IPL Player & Venue Stats</h1>
+      <p class="subtitle">
+        Best openers, powerplay bowlers, death over specialists and venue
+        insights — Impact Player era (2023+)
+      </p>
+    </header>
+
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link">Impact Player Analysis</a>
+      <a href="stats.html" class="nav-link active">Player & Venue Stats</a>
+    </nav>
+
+    <section id="headline-stats">
+      <div class="stat-card">
+        <span class="stat-value" id="stat-best-sr">--</span>
+        <span class="stat-label">Highest opener SR (Impact Era)</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-best-pp">--</span>
+        <span class="stat-label">Best powerplay economy</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-best-death">--</span>
+        <span class="stat-label">Best death over economy</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="stat-home-advantage">--</span>
+        <span class="stat-label">Strongest home advantage</span>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <h2>Top Openers — Strike Rate (Impact Player Era)</h2>
+      <p>Minimum 20 innings. Sorted by strike rate.</p>
+      <canvas id="openerChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Best Powerplay Bowlers — Economy Rate</h2>
+      <p>Minimum 200 balls bowled in the powerplay. Lower is better.</p>
+      <canvas id="ppBowlerChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Best Death Over Bowlers — Economy Rate</h2>
+      <p>Minimum 150 balls bowled in death overs. Lower is better.</p>
+      <canvas id="deathBowlerChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Home vs Away Win % by Team</h2>
+      <p>
+        Teams above the 50% line have a genuine home advantage. Teams below
+        perform better away.
+      </p>
+      <canvas id="homeAwayChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Toss Advantage by Venue</h2>
+      <p>
+        % of matches won by the toss winner at each ground. Venues with 10+
+        matches only.
+      </p>
+      <canvas id="tossVenueChart"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>Each Team's Best Venue</h2>
+      <p>Venue where each team has the highest win % (minimum 5 matches).</p>
+      <canvas id="bestVenueChart"></canvas>
+    </section>
+
+    <footer>
+      <p>
+        Data source: Cricsheet.org · Analysis built with Python/pandas · 1243
+        IPL matches (2008–2026)
+      </p>
+    </footer>
+
+    <script src="stats.js"></script>
+  </body>
+</html>
